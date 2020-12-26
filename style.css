@@ -1,0 +1,556 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "montserrat";
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+
+#main{
+    width:100%;
+    height: 100%;
+    display: flex;
+}
+
+
+nav{
+    width:100%;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#one{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:70%;
+    height: inherit;
+}
+
+#one h4{
+    font-weight: bold;
+}
+
+#line{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+    margin-top: 2px;
+    width: 0px;
+    height: 1px;
+    background-color: tomato;
+}
+
+#one a:hover{
+    color: tomato;
+}
+
+#one a:hover #line{
+    width: 30px;
+}
+
+#one a{
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: teal;
+}
+
+
+#two{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:20%;
+    height: inherit;
+}
+#bt{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 100px;
+    width:150px;
+    height:40px ;
+    background-color: teal;
+    box-shadow: 0px 0px 2px #000;
+}
+
+#bt:hover{
+    cursor: pointer;
+    background-color: tomato;
+    box-shadow: 0px 0px 2px #fff;
+}
+#bt h5{
+    margin-right: 15px;
+    font-size: 12px;
+}
+
+#bt i{
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#left{
+    width:80%;
+    height: inherit;
+}
+
+#leftpart{
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+
+#l1{
+    width:8%;
+    height:inherit;
+    border-radius: 0px 25px 25px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 61, 61);
+}
+
+#li{
+    position: relative;
+    width: 100%;
+    height: 60%;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#l2{
+    display: flex;
+    flex-direction: column;
+    width:87%;
+    height:inherit;
+}
+
+#li i{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+    padding:30px;
+}
+#turn{
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+    margin-left: 30px;
+    width:0px;
+    height:50px;
+    background-color: #fff;     
+}
+
+#turn:hover{
+    cursor: pointer;
+    width: 90px;
+}
+
+#turn i{
+    margin-left: -25px;
+    color: #fff;
+}
+
+#turn:hover i{
+    color: teal;
+    margin-left: -10px;
+    font-weight: bold;
+}
+
+#upper{
+    margin-top: 20px;
+    width:96%;
+    border-radius: 50px 0px 0px 0px;
+    height:45%;
+}
+
+#upper img{
+    border-radius: 50px 0px 0px 0px;
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+#lower{
+    margin-top: 30px;
+    width:96%;
+    height:48%;
+}
+
+#lower h4{
+    margin-top: 15px;
+}
+
+#div1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    width:100%;
+    height:120px;
+    border-radius: 25px 0px 0px 0px;
+    background-color: #E5E8E8;
+}
+
+#img{
+    border-radius: 25px 0px 0px 0px;
+    margin-left: 15px;
+    width: 100px;
+    height: 90px;
+    background-color: #fff;
+}
+
+#img img{
+    border-radius: 25px 0px 0px 0px;
+    width: 100%;
+    height: 100%;
+    object-position: top;
+    object-fit: cover;
+}
+
+#cnt{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    margin-right: 80px;
+    height: 100px;
+}
+
+#cnt h5{
+    margin-top: 15px;
+}
+
+#cnt h6{
+    font-weight: 500;
+    margin-top: -15px;
+    font-size: 10px;
+    color: #a0a0a0;
+}
+
+#ltt{
+    justify-content: space-between;
+    width: 733px;
+    display: flex;
+}
+
+#lsts{
+    margin-bottom: 10px;
+    width: 70px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#lsts h6{
+    font-weight: 600;
+    color: #757575;
+    margin-top: 2px;
+}
+#lsts i{
+    font-weight: 600;
+    color: #b3b3b3;
+}
+
+#lstsr{
+    margin-bottom: 10px;
+    width: 100px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#lstsr h6{
+    font-weight: 600;
+    color: #757575;
+    margin-top: 2px;
+}
+
+#lstsr i{
+    font-weight: 600;
+    color: #b3b3b3;
+}
+
+#lstssr{
+    margin-bottom: 10px;
+    width: 70px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#lstssr h6{
+    font-weight: 600;
+    color: #757575;
+    margin-top: 2px;
+}
+
+#lstssr i{
+    font-weight: 600;
+    color: #b3b3b3;
+}
+#btn{
+    width: 300px;
+    height: 100px;
+}
+
+#lst{
+    align-items: center;
+    justify-content: space-between;
+    width: 120px;
+    margin-right: 20px;
+    display: flex;
+}
+
+#lst i{
+    color: blue;
+    margin-top: -2px;
+}
+
+#lst h6{
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 0;
+    color: blue;
+}
+
+#fportion{
+    width: 275px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#fone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 130px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: teal;
+}
+
+#fone:hover{
+    background-color: tomato;
+    cursor: pointer;
+}
+
+#sone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 130px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgb(255, 103, 103);
+}
+
+#sone:hover{
+    background-color: tomato;
+    cursor: pointer;
+}
+
+#right{  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width:20%;
+    height:108%;
+    background-color:#eeeeee;;    
+}
+
+#rr{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 230px;
+    height: 35px;
+}
+
+#rr i{
+    font-weight: 500;
+}
+
+#pimg{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 180px;
+}
+
+#pmg{
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: #EACEDC;
+}
+
+#pmg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#pimg p{
+    font-weight: 500;
+    font-size: 10px;
+}
+
+#rmid{
+    margin-top: 15px;
+    width: 85%;
+    height: 420px;
+}
+
+#icon{
+    align-items: center;
+    justify-content: space-between;
+    width: 110px;
+    height: 20px;
+    display: flex;
+}
+
+#icon i{
+    color: rgb(123, 169, 255);
+}
+
+#icon span{
+    font-weight: bold;
+}
+
+#icon h6{
+    color: rgb(71, 135, 255);
+    font-weight: 600;
+}
+
+#icon1{
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-between;
+    width: 98px;
+    height: 20px;
+    display: flex;
+}
+
+#icon1 i{
+    color: rgb(255, 135, 113);
+}
+
+#icon1 span{
+    margin-left: -20px;
+    font-weight: bold;
+}
+
+#icon1 h6{
+    color: tomato;
+    font-weight: 600;
+}
+
+#icon2{
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-between;
+    width: 107px;
+    height: 20px;
+    display: flex;
+}
+
+#icon2 i{
+    color: rgb(75, 75, 75);
+}
+
+#icon2 span{
+    font-weight: bold;
+}
+
+#icon2 h6{
+    margin-top: 2px;
+    color: rgb(75, 75, 75);
+    font-weight: 600;
+}
+
+#rmid1{
+    margin-top: 50px;
+    width: 100%;
+    height: 270px;
+}
+
+#rmid1 h5{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+#rlone{
+    width: 80%;
+    height: 70px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#rlimg{
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+}
+
+#rlimg img{
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#rstyle h6{
+    font-weight: 600;
+}
+
+#rstyle p{
+    font-size: 9px;
+}
+
+#rlone:nth-child(4){
+    width: 135px;
+}
+
+#rlast{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-top: 20px;
+    width: 90px;
+    height: 40px;
+}
+
+#rlast h6{
+    font-weight: 500;
+}
+
